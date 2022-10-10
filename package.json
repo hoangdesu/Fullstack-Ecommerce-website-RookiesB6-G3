@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-ecommerce-website",
+  "version": "1.0.0",
+  "description": "Fullstack Ecommerce website project - The Rookies batch 6",
+  "main": "index.js",
+  "author": "Group 3",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn workspaces run start",
+    "start:frontend": "yarn workspace frontend run start"
+  },
+  "workspaces": [
+    "app/server",
+    "app/frontend"
+  ]
+}

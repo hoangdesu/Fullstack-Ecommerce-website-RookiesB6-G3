@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "global": "^4.4.0"
+  }
+}
